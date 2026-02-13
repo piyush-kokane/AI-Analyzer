@@ -6,7 +6,7 @@ import './index.css'
 import App from './App.tsx'
 
 createRoot(document.getElementById('root')!).render(
-  <StrictMode>
+  //<StrictMode>
     <BrowserRouter>
       <App />
       <Toaster
@@ -20,5 +20,5 @@ createRoot(document.getElementById('root')!).render(
         }}
       />
     </BrowserRouter>
-  </StrictMode>,
+  //</StrictMode>
 )
