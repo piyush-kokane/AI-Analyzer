@@ -1,0 +1,131 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  width: 420px;
+  background: #0b1620;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 40px rgba(0, 255, 195, 0.2);
+  border: 1px solid rgba(0, 255, 195, 0.2);
+}
+
+.header {
+  margin-bottom: 16px;
+
+  div {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #00ffc3;
+  }
+
+  h1, h2 {
+    margin: 0;
+    font-size: 50px;
+    line-height: 1.1;
+  }
+
+  h1 {
+    color: white;
+  }
+
+  span:first-of-type {
+    font-size: 50px;
+    opacity: 0.8;
+  }
+
+  span:last-of-type {
+    font-size: 30px;
+    opacity: 0.5;
+  }
+
+  p {
+    text-align: center;
+    color: #888;
+    font-size: 14px;
+  }
+}
+
+
+
+.section {
+  margin-bottom: 20px;
+}
+
+.section label {
+  font-size: 12px;
+  color: #aaa;
+  letter-spacing: 2px;
+}
+
+.upload-box {
+  margin-top: 10px;
+  border: 2px dashed rgba(0, 255, 195, 0.4);
+  border-radius: 15px;
+  padding: 30px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.upload-box:hover {
+  border-color: #00ffc3;
+}
+
+.upload-label {
+  color: #ccc;
+  cursor: pointer;
+}
+
+.upload-label span {
+  color: #00ffc3;
+  text-decoration: underline;
+}
+
+.file-types {
+  font-size: 12px;
+  color: #666;
+  margin-top: 8px;
+}
+
+.email-input {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 10px;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 255, 195, 0.3);
+  background: #0f1c26;
+  color: white;
+  outline: none;
+}
+
+.email-input:focus {
+  border-color: #00ffc3;
+}
+
+.run-btn {
+  width: 100%;
+  padding: 14px;
+  border-radius: 15px;
+  border: none;
+  background: #00ffc3;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.run-btn:hover {
+  box-shadow: 0 0 20px #00ffc3;
+}
+
+.footer {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #777;
+}
